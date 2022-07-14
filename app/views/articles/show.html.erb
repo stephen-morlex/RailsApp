@@ -1,3 +1,8 @@
+
+<nav><ul>
+  <li> <a href="/">Home</a></li>
+
+</ul></nav>
 <h1><%= @article.title %></h1>
 
 <p><%= @article.body %></p>
@@ -9,3 +14,9 @@
                     turbo_confirm: "Are you sure?"
                   } %></li>
 </ul>
+
+<div class="comments">
+<%= render @article.comments %>
+<%= render "comments/form" %>
+
+</div>
