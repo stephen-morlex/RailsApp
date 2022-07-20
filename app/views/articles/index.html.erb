@@ -10,4 +10,7 @@
 </ul>
 <%= link_to "New Article", new_article_path %>
 </div>
-
+<%= pie_chart Article.group(:user_id).count %>
+<div>
+<%= line_chart({"2021-01-01" => 2, "2021-01-02" => 3}) %>
+</div>

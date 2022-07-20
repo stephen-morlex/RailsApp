@@ -9,6 +9,11 @@ gem "rails", "~> 7.0.3", ">= 7.0.3.1"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
+# ChartKick
+gem "chartkick"
+# GroupBy
+gem "groupdate"
+
 #Rails admin
 gem 'rails_admin', '~> 3.0'
 
