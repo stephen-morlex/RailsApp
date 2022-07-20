@@ -20,6 +20,10 @@ gem 'rails_admin', '~> 3.0'
 #Devices
 gem 'devise'
 
+#CancanCan
+gem 'cancancan'
+
+
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", "~> 1.4"
 
